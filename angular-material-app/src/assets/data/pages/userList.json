@@ -1,0 +1,33 @@
+[
+  {
+    "userId": 9,
+    "loginName": "admin",
+    "loginCount": 10,
+    "state": "NORMAL",
+    "lastLoginTime": "2018-05-24 18:37:28",
+    "lastLoginIp": "49.77.233.147",
+    "createTime": "2018-04-13 12:15:43",
+    "tenantId": 8
+  },
+  {
+    "userId": 10,
+    "loginName": "lisi@fzu",
+    "loginCount": 12,
+    "state": "NORMAL",
+    "lastLoginTime": "2018-05-24 18:50:12",
+    "lastLoginIp": "180.173.34.254",
+    "createTime": "2018-04-13 12:30:59",
+    "tenantId": 8
+  },
+  {
+    "userId": 11,
+    "loginName": "wangwu@fzu",
+    "loginCount": 25,
+    "state": "NORMAL",
+    "lastLoginTime": "2018-05-24 18:50:12",
+    "lastLoginIp": "180.173.34.254",
+    "createTime": "2018-04-13 12:30:59",
+    "tenantId": 8
+  }
+
+]

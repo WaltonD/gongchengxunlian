@@ -1,0 +1,112 @@
+<!--<mat-card>-->
+  <!--<mat-card-title>Popover</mat-card-title>-->
+  <!--<mat-card-content>-->
+    <!--<button mat-icon-button [popoverTriggerFor]="popover">-->
+      <!--<mat-icon>grade</mat-icon>-->
+    <!--</button>-->
+    <!--<stbui-popover #popover="stbuiPopover">-->
+      <!--<stbui-date-picker mode="landscape"></stbui-date-picker>-->
+    <!--</stbui-popover>-->
+  <!--</mat-card-content>-->
+<!--</mat-card>-->
+
+<mat-card>
+  <mat-card-title>课表查询</mat-card-title>
+  <mat-card-content>
+    <div class="config">
+      <mat-form-field>
+        <mat-select [(ngModel)]="horizontalAlign" placeholder="选择学院">
+          <mat-option value="before">数计学院</mat-option>
+          <mat-option value="start">机械学院</mat-option>
+          <mat-option value="center">电气学院</mat-option>
+          <mat-option value="end">土木学院</mat-option>
+          <mat-option value="after">经管学院</mat-option>
+          <mat-option value="octopus">人文学院</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+    </div>
+    <div class="config">
+      <mat-form-field>
+        <mat-select [(ngModel)]="verticalAlign0" placeholder="选择专业">
+          <mat-option value="r1">计算机科学与技术</mat-option>
+          <mat-option value="r2">计算机技术</mat-option>
+          <mat-option value="r3">数学应用</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="config">
+      <mat-form-field>
+        <mat-select [(ngModel)]="verticalAlign1" placeholder="选择班级">
+          <mat-option value="c1">专硕1班</mat-option>
+          <mat-option value="c2">专硕2班</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <button mat-raised-button color="accent" [style.marginLeft]="margin + 'px'">
+      查询
+    </button>
+  </mat-card-content>
+</mat-card>
+
+<!--<mat-card>-->
+  <!--<mat-card-title>Action API</mat-card-title>-->
+  <!--<mat-card-content>-->
+    <!--<button mat-icon-button [popoverTriggerFor]="popover">-->
+      <!--<mat-icon>grade</mat-icon>-->
+    <!--</button>-->
+    <!--<stbui-popover #popover="stbuiPopover">-->
+      <!--<stbui-date-picker mode="landscape"></stbui-date-picker>-->
+    <!--</stbui-popover>-->
+
+    <!--<button mat-raised-button>popover#open()</button>-->
+    <!--<button mat-raised-button>popover#close()</button>-->
+    <!--<button mat-raised-button>popover#toggle()</button>-->
+  <!--</mat-card-content>-->
+<!--</mat-card>-->
+
+<!--<mat-card>-->
+  <!--<mat-card-title>Scroll Strategies</mat-card-title>-->
+  <!--<mat-card-content>-->
+    <!--<mat-radio-group>-->
+      <!--<mat-radio-button *ngFor="let scrollOption of scrollOptions" [value]="scrollOption.value">-->
+        <!--{{scrollOption.name}}-->
+      <!--</mat-radio-button>-->
+    <!--</mat-radio-group>-->
+
+    <!--<div>-->
+      <!--<button mat-raised-button>显示</button>-->
+    <!--</div>-->
+  <!--</mat-card-content>-->
+<!--</mat-card>-->
+
+<!--<mat-card>-->
+  <!--<mat-card-title>Focus Behavior</mat-card-title>-->
+  <!--<mat-card-content>-->
+    <!--<button mat-icon-button [popoverTriggerFor]="popover">-->
+      <!--<mat-icon>grade</mat-icon>-->
+    <!--</button>-->
+    <!--<stbui-popover #popover="stbuiPopover">-->
+      <!--<stbui-date-picker mode="landscape"></stbui-date-picker>-->
+    <!--</stbui-popover>-->
+  <!--</mat-card-content>-->
+<!--</mat-card>-->
+
+<!--<mat-card>-->
+  <!--<mat-card-title>Custom Transitions</mat-card-title>-->
+  <!--<mat-card-content>-->
+    <!--<button mat-icon-button [popoverTriggerFor]="popover">-->
+      <!--<mat-icon>grade</mat-icon>-->
+    <!--</button>-->
+    <!--<stbui-popover #popover="stbuiPopover">-->
+      <!--<stbui-date-picker mode="landscape"></stbui-date-picker>-->
+    <!--</stbui-popover>-->
+  <!--</mat-card-content>-->
+<!--</mat-card>-->
+
+<!--<mat-card>-->
+  <!--<mat-card-title>文件上传</mat-card-title>-->
+  <!--<mat-card-content>-->
+    <!--<stbui-file-upload></stbui-file-upload>-->
+  <!--</mat-card-content>-->
+<!--</mat-card>-->
