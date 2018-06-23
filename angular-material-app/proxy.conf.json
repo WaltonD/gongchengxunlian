@@ -1,6 +1,6 @@
 {
   "/api": {
-    "target": "http://api.stbui.com",
+    "target": "http://111.230.252.141/login",
     "secure": false
   }
 }
