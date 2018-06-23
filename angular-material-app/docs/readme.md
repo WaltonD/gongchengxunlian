@@ -1,23 +1,3 @@
-# 中后台前端应用框架
-
-基于最新`Angular 6`框架与`Material 2`技术的企业级中后台前端应用框架，涵盖了大量的常用组件和基础功能，您可以快速开发各种MIS系统，如CMS、OA、CRM、ERP、POS等，最大程度上帮助企业节省时间成本和费用开支。
-
-* [快速入门](start.md)
-* [样式](css.md)
-* [组件](component.md)
-* [部署](deploy.md)
-* [接口代理](backend-proxy.md)
-* [travis ci 配置](travis.md)
-* [docker](docker.md)
-* [electron](electron.md)
-* [firebase](firebase.md)
-* [universal](universal.md)
-* [pwa](pwa.md)
-* [material icon](icon.md)
-* [常见问题](faq.md)
-
----
-
 # 项目结构
 
 ```
